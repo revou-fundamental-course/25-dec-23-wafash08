@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Katik | Hitung Luas dan Keliling Bangun Datar</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Katik</h1>
+				<p class="greeting">Selamat datang di Katik 🙌</p>
+				<p class="description">
+					Sebuah web app sederhana untuk menghitung nilai luas dan keliling
+					bangun datar
+				</p>
+				<nav class="navbar">
+					<ul class="navbar_list">
+						<li class="navbar_item">
+							<button type="button" class="navbar_button" data-active="active">
+								Segitiga
+							</button>
+						</li>
+						<li class="navbar_item">
+							<button type="button" class="navbar_button" disabled>
+								Jajar Genjang
+							</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<nav>
+					<ul class="control_list">
+						<li class="control_item">
+							<button
+								type="button"
+								data-active="active"
+								class="control_button"
+								id="control_luas"
+							>
+								Luas Segitga
+							</button>
+						</li>
+						<li class="control_item">
+							<button
+								type="button"
+								class="control_button"
+								id="control_keliling"
+							>
+								Keliling Segitga
+							</button>
+						</li>
+					</ul>
+				</nav>
+				<section>
+					<div class="segitiga">
+						<div>
+							<img src="./segitiga.png" alt="Segitiga" />
+						</div>
+						<div class="rumus_dan_keterangan"></div>
+					</div>
+					<div class="operasi"></div>
+				</section>
+			</div>
+		</main>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
