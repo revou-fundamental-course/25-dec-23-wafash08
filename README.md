@@ -1,1 +1,1 @@
-[see it live 👋](https://clever-phoenix-721ce2.netlify.app/)
+[see it live 👋](https://revou-fundamental-course.github.io/25-dec-23-wafash08/)
